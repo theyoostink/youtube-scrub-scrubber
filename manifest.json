@@ -1,7 +1,7 @@
 {
 	"manifest_version": 3,
 	"name": "Youtube Scrub Scrubber",
-	"description": "This extension blurs thumbnails from the Youtube home page that have low views",
+	"description": "This extension blurs videos on the Youtube home page that have few views",
 	"version": "1.0.0",
 	"host_permissions": ["https://*.youtube.com/*"],
 	"background": {
