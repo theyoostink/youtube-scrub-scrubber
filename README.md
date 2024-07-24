@@ -22,3 +22,4 @@ There are currently no plans to publish this extension to the Google Web Store.
 ## Changelog
 
 - v1.0 [2024-07-22]: The first version
+- v1.1 [2024-07-24]: Checks to blur/unblur continuously while on the page rather than just once given how Youtube renders their page
