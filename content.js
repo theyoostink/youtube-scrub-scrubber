@@ -29,6 +29,9 @@ function blurBlocks(blocks) {
 		else if (viewText.includes("LIVE")) {
 			blurParent(parentBlock);
 		}
+		else if (viewText.includes("Mix")) {
+			blurParent(parentBlock);
+		}
 	}
 }
 
@@ -70,4 +73,7 @@ function scrubScrubber() {
 
 	var liveBlocks = document.querySelectorAll("p.ytd-badge-supported-renderer");
 	blurBlocks(liveBlocks);
+
+	var mixBlocks = document.querySelectorAll("yt-formatted-string.ytd-thumbnail-overlay-bottom-panel-renderer");
+	blurBlocks(mixBlocks);
 }
