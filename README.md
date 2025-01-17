@@ -25,3 +25,4 @@ There are currently no plans to publish this extension to the Google Web Store.
 - v1.1 [2024-07-24]: Checks to blur/unblur continuously while on the page rather than just once given how Youtube renders their page
 - v1.2 [2024-08-05]: Also blurs out live streams + some refactoring
 - v1.3 [2024-08-05]: Also blurs out mixes
+- v1.4 [2025-01-17]: Also blurs out auto-dubbed videos that are originally in another language and automatically but terribly dubbed over with a mechanical voice
