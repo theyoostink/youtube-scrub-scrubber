@@ -39,6 +39,9 @@ function blurBlocks(blocks) {
 }
 
 function blurParent(parent) {
+	if (parent == null) {
+		return;
+	}
 	if (!currentlyHovering) {
 		// Only blur when not hovering over a video
 		parent.style.filter = blur;
