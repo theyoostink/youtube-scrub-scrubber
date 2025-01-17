@@ -13,7 +13,7 @@
 
 ## About the Extension
 
-This extension blurs out videos on the Youtube front page with less than 1,000 views (the view counter does not have K or M or B), live streams, and mixes. You can hover over the video to unblur it and see the underlying text.
+This extension blurs out videos on the Youtube front page with less than 1,000 views (the view counter does not have K or M or B), live streams, mixes, and auto-dubbed videos. You can hover over the video to unblur it and see the underlying text.
 
 If you encounter a bug or would like to request changes, please contact Yoostink.
 
