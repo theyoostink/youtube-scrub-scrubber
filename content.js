@@ -35,6 +35,15 @@ function blurBlocks(blocks) {
 		else if (viewText.includes("Mix")) {
 			blurParent(parentBlock);
 		}
+		else if (viewText.includes("Members first")) {
+			blurParent(parentBlock);
+		}
+		else if (viewText.includes("Members only")) {
+			blurParent(parentBlock);
+		}
+		else if (viewText.includes("Dubbed")) {
+			blurParent(parentBlock);
+		}
 	}
 }
 
@@ -75,14 +84,14 @@ function repeatScrubScrubber() {
 function scrubScrubber() {
 
 	// Blurs videos with low view count
-	var viewBlocks = document.querySelectorAll("ytd-video-meta-block:not([inline-badges]) #metadata-line.ytd-video-meta-block span.ytd-video-meta-block");
+	var viewBlocks = document.querySelectorAll("span.yt-core-attributed-string.yt-content-metadata-view-model-wiz__metadata-text");
 	blurBlocks(viewBlocks);
 
-	// Blurs videos with LIVE and Auto-dubbed badges
-	var badgeBlocks = document.querySelectorAll("p.ytd-badge-supported-renderer");
+	// Blurs videos with certain badges
+	var badgeBlocks = document.querySelectorAll("div.badge-shape-wiz__text");
 	blurBlocks(badgeBlocks);
 
 	// Blurs Mix playlists
-	var mixBlocks = document.querySelectorAll("yt-formatted-string.ytd-thumbnail-overlay-bottom-panel-renderer");
+	var mixBlocks = document.querySelectorAll("div.badge-shape-wiz__text");
 	blurBlocks(mixBlocks);
 }
