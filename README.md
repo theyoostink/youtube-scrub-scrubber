@@ -26,3 +26,4 @@ There are currently no plans to publish this extension to the Google Web Store.
 - v1.2 [2024-08-05]: Also blurs out live streams + some refactoring
 - v1.3 [2024-08-05]: Also blurs out mixes
 - v1.4 [2025-01-17]: Also blurs out auto-dubbed videos that are originally in another language and automatically but terribly dubbed over with a mechanical voice
+- v1.5 [2025-08-07]: Handling new Youtube frontend and updating selectors and blurring more categories
